@@ -1,0 +1,7 @@
+.headerContainer {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-around;
+    font-size: 16px;
+}
