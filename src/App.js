@@ -1,11 +1,13 @@
-import Home from './Home'
+// import Home from './Home'
 import About from './About'
 import Login from './pages/Login'
-import Layout from "./pages/Layout";
+import Layout from "./pages/components/Layout";
 import Board from "./pages/Board";
 import Article from "./pages/Article";
-import Content from "./pages/Content";
+// import Content from "./pages/Content";
 import { HashRouter, BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import FeedBack from "./pages/selfPages/FeedBack";
+import AntUse from "./pages/selfPages/AntUse";
 
 function App() {
   return (
@@ -31,10 +33,11 @@ function App() {
              <Route path="/article" element={<Article/>}></Route>
              <Route path="/login" element={<Login/>}></Route>
            </Route>
-           <Route path="/login" element={<Login/>}></Route>
-           <Route path="/" element={<Home/>}></Route>
-           <Route path="/about" element={<About/>}></Route>
-           <Route path="/content" element={<Content/>}></Route>
+           <Route path="/selfpages/FeedBack" element={<FeedBack/>}></Route>
+           <Route path="/selfpages/AntUse" element={<AntUse/>}></Route>
+           {/*<Route path="/" element={<Home/>}></Route>*/}
+           {/*<Route path="/about" element={<About/>}></Route>*/}
+           {/*<Route path="/content" element={<Content/>}></Route>*/}
          </Routes>
       </BrowserRouter>
   );

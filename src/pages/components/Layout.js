@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import HeaderBlock from "./components/HeaderBlock";
+import HeaderBlock from "./HeaderBlock";
 function Layout () {
   return (
       <div>
