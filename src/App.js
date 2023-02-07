@@ -8,6 +8,7 @@ import Article from "./pages/Article";
 import { HashRouter, BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import FeedBack from "./pages/selfPages/FeedBack";
 import AntUse from "./pages/selfPages/AntUse";
+import List from "./pages/selfPages/List";
 
 function App() {
   return (
@@ -29,12 +30,13 @@ function App() {
            <Route path="/" element={<Layout/>}>
            {/*  定义二级路由嵌套*/}
            {/*  默认二级路由*/}
-             <Route index element={<Board/>}></Route>
-             <Route path="/article" element={<Article/>}></Route>
-             <Route path="/login" element={<Login/>}></Route>
+           <Route index element={<Board/>}></Route>
+           <Route path="/article" element={<Article/>}></Route>
+           <Route path="/login" element={<Login/>}></Route>
            </Route>
            <Route path="/selfpages/FeedBack" element={<FeedBack/>}></Route>
            <Route path="/selfpages/AntUse" element={<AntUse/>}></Route>
+           <Route path="/selfpages/List" element={<List/>}></Route>
            {/*<Route path="/" element={<Home/>}></Route>*/}
            {/*<Route path="/about" element={<About/>}></Route>*/}
            {/*<Route path="/content" element={<Content/>}></Route>*/}

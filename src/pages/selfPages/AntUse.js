@@ -1,7 +1,12 @@
-import { DatePicker } from 'antd';
+import {Button, DatePicker} from 'antd';
 
 const AntComponent = () => {
-    return <DatePicker/>
+    return (
+        <div>
+            <DatePicker/>
+            <Button type="primary">Primary Button</Button>
+        </div>
+    )
 }
 
 export default AntComponent

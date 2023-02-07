@@ -5,9 +5,9 @@ function FeedBack () {
   // const [feedContent,setFeedContent] = React.useState([""]);
   const [contentLength,setContentLength] = React.useState([0]);
   const onTextareaChange = e => {
-    console.log(e, "反馈内容")
     setContentLength(e.target.value.length)
   }
+
   return (
       <div style={styles.feedBackPage}>
         <div>
