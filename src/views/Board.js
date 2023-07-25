@@ -15,7 +15,13 @@ function Board () {
         <p>
           <Link to="/selfPages/List">卡片列表</Link>
         </p>
-
+        <p>
+          <Link to="/selfpages/TransformSkew">斜切方块</Link>
+        </p>
+        <p>
+          <Link to="/selfpages/ReduxTest">关于状态管理 改变天气</Link>
+          <Link to="/selfpages/ReduxTest2">关于状态管理 改变主题</Link>
+        </p>
       </div>
   )
 }

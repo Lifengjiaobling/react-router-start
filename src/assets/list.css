@@ -23,3 +23,14 @@ li,ul {
 li {
     margin-top: 10px;
 }
+.skew-page {
+    width: 100%;
+    height: 100%;
+}
+.skew-box {
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #6bbaf3;
+    transform: skew(45deg,0)
+}
