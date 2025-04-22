@@ -13,7 +13,7 @@ function Board () {
           <Link to="/selfPages/AntUse">组件调用git测试</Link>
         </p>
         <p>
-          <Link to="/selfPages/List">卡片列表</Link>
+          <Link to="/selfPages/List">卡片列表再测一遍</Link>
         </p>
         <p>
           <Link to="/selfpages/TransformSkew">斜切方块</Link>

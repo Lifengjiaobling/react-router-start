@@ -7,7 +7,7 @@ function Content () {
   // const name = params.name;
   console.log(id, params)
   return(
-      <div>主要内容</div>
+      <div>主要内容主要内容</div>
   )
 }
 
