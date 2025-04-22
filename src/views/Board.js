@@ -7,10 +7,10 @@ function Board () {
       <div>
         <p>Home主页</p>
         <p>
-          <Link to="/selfPages/FeedBack">意见反馈</Link>
+          <Link to="/selfPages/FeedBack">意见反馈git测试测试</Link>
         </p>
         <p>
-          <Link to="/selfPages/AntUse">组件调用</Link>
+          <Link to="/selfPages/AntUse">组件调用git测试</Link>
         </p>
         <p>
           <Link to="/selfPages/List">卡片列表</Link>
